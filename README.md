@@ -1,10 +1,27 @@
-****Cryptocurrency Price Tracker****
-This React application allows users to track the current and historical prices of various cryptocurrencies. It integrates data from the Chainlink Price Feeds and CoinGecko APIs to provide accurate and real-time price information. The app also features a chart to visualize price trends over time and connects to MetaMask for Ethereum-based functionality.
+# Cryptocurrency Price Tracker
 
-Features
-Cryptocurrency Prices: Fetches real-time prices for popular cryptocurrencies like Bitcoin, Ethereum, Cardano, and others.
-Historical Data: Displays historical price trends using a chart for different time ranges.
-Top Trading Pairs: Shows the top 7 trading pairs across exchanges based on volume.
-MetaMask Integration: Connects with MetaMask to fetch price data using Chainlink oracles.
-Interactive Chart: A responsive chart visualizing price data using react-chartjs-2.
-Real-Time Price Updates: Fetches updated prices every time the selected cryptocurrency or time range changes.
+This is a React-based cryptocurrency price tracker that fetches and displays the latest prices and historical data for various cryptocurrencies. The application integrates with Chainlink and Web3 for decentralized data fetching and uses the CoinGecko API to fetch market data. The app also supports MetaMask for Ethereum-based interactions.
+
+## Features
+
+- **Cryptocurrency Price Tracking**: Fetches and displays real-time prices for major cryptocurrencies including Bitcoin, Ethereum, Cardano, Polkadot, Litecoin, Ripple, Chainlink, and more.
+- **Historical Data Visualization**: Displays price trends over customizable time ranges using line charts powered by Chart.js.
+- **Top Trading Pairs**: Displays the top trading pairs from various exchanges based on volume.
+- **MetaMask Integration**: Connects with MetaMask to check for wallet connection.
+- **Chainlink Price Feeds**: Fetches price data using Chainlink decentralized oracles for reliable and decentralized data.
+
+## Tech Stack
+
+- **React**: The frontend framework for building the user interface.
+- **Web3.js**: For Ethereum interactions and connecting to the blockchain.
+- **Chainlink Plugin**: Used to fetch decentralized price data.
+- **CoinGecko API**: Fetches market and price data for cryptocurrencies.
+- **Chart.js**: Used for rendering line charts of historical price data.
+- **Lodash**: Utility library for debouncing API calls.
+- **Axios**: For making HTTP requests to external APIs.
+
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/crypto-price-tracker.git
