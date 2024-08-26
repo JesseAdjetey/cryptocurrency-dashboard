@@ -476,7 +476,7 @@ const formatChartData = (historicalData) => {
           <button
             className="github-button"
           >
-             <img src="images/github.png" alt="github.png" onClick={() => navigateToUrl('https://github.com/JesseAdjetey/crypto-app')} />
+             <img src="images/github.png" alt="github.png" onClick={() => navigateToUrl('https://github.com/JesseAdjetey/cryptocurrency-dashboard')} />
           </button>
           <button
             className="instagram-button"
