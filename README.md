@@ -44,6 +44,7 @@ The application will be available at http://localhost:3000/
 The application is deployed on Fleek and can be accessed at:
 
 https://cryptocurrency-dashboard.on-fleek.app/
+(On some browsers, such as Edge, the site might be reported as unsafe. Click on 'More information' and then 'continue to the unsafe site(not recommended)' to access it.
 
 ## Usage
 1. Connect your MetaMask wallet to check for Ethereum-based interactions.
