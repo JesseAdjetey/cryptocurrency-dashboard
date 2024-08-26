@@ -54,16 +54,20 @@ https://cryptocurrency-dashboard.on-fleek.app/
 4. The current price is displayed alongside a line chart showing the price trend over the selected time range.
 
 ## Important Functions
-**fetchCurrentPrice()**
+**fetchCurrentPrice()**:
+
 Fetches the current price of the selected cryptocurrency from the appropriate source, either through Chainlink or CoinGecko.
 
-**fetchHistoricalData()**
+**fetchHistoricalData()**:
+
 Fetches and formats historical price data based on the selected cryptocurrency and time range.
 
-**handleMetaMaskConnection()**
+**handleMetaMaskConnection()**:
+
 Handles connection to MetaMask for Ethereum-based transactions and data fetching.
 
-**fetchTopPairs()**
+**fetchTopPairs()**:
+
 Fetches the top trading pairs for the selected cryptocurrency from decentralized exchanges like Uniswap.
 
 ## Dependencies
