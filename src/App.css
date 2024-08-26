@@ -1,16 +1,7 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-family: Arial, sans-serif;
+  color: #ffffff;
 }
 
 .App-header {
@@ -22,6 +13,13 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px;
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
 .App-link {
@@ -35,4 +33,199 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button {
+  background-color: #ff6600; /* Bright orange color */
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #e65c00; /* Slightly darker orange on hover */
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+button:active {
+  background-color: #cc5200; /* Even darker on click */
+  transform: scale(0.95); /* Slightly shrink on click */
+}
+
+label {
+  font-size: 1.2rem;
+  margin: 10px 0;
+   font-family: monospace;
+}
+
+select {
+  font-size: 1rem;
+  padding: 10px;
+  border: 2px solid #61dafb;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #333333;
+  margin: 10px;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+select:hover, select:focus {
+  border-color: #ff6600;
+  background-color: #f0f0f0;
+}
+
+.chart-container {
+  width: 60%;
+  max-width: 1200px;
+  height: 600px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    
+    padding: 10px;
+  }
+
+  select {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .chart-container {
+    height: 400px;
+  }
+}
+
+h1{
+  font-family: monospace;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.pairs-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pairs-button:hover {
+  background-color: #218838;
+}
+
+
+.top-pairs-container {
+  width: 20%;
+  background-color: #1e1e2e;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+  max-width: 20500%;
+ 
+}
+
+.top-pairs-heading {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #238c2f;
+}
+
+.top-pairs-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.top-pairs-table th,
+.top-pairs-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+.top-pairs-table th {
+  background-color: #444;
+  color:#4abebe;
+}
+
+.top-pairs-table tr:hover {
+  background-color: #333;
+}
+
+.top-pairs-table td {
+  color: #ffffff;
+}
+
+
+.button-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  width: 10px;
+  height: 20px;
+  border: none;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+/* .twitter-button{
+  padding: 5px;
+ padding-bottom: 0;
+ padding-top: 0;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+
+.twitter-button img {
+  width: 40px;
+  height: 25px;
+  background: none;
+  max-width: 100%;
+}
+
+.instagram-button img {
+  width: 24px;
+  height: 24px;
+}
+
+.github-button img {
+  width: 24px;
+  height: 24px;
+} */
+
+.twitter-button, .github-button, .instagram-button {
+  padding: 0; /* Remove padding */
+  border: none; /* Remove any borders */
+  background: none; /* Remove background color */
+  cursor: pointer;
+}
+
+.twitter-button img, .github-button img, .instagram-button img {
+  width: 34px; /* Set a specific width */
+  height: 34px; /* Set a specific height */
+  display: block; /* Ensures no extra space around the images */
+  border-radius: 80px;
 }
